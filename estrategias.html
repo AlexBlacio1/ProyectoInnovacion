@@ -86,7 +86,6 @@
             ofrece recursos detallados para el aprendizaje.</p>
 
         <div class="row row-cols-1 row-cols-md-3 g-4" id="estrategias-dinamicas"></div>
-        <!-- Apartados dinámicos -->
         <script>
             const apartados = [
                 {
@@ -195,12 +194,10 @@
         container.innerHTML += cardHTML;
         });
 
-            //Funcion para actualizar diapositivas segun apartado
             function updateModalIframe(url) {
                 const iframe = document.querySelector("#canvaIframe");
-                 // Verificamos si el iframe existe antes de intentar cambiar su src
             if (iframe) {
-                iframe.src = url;  // Actualizamos el src del iframe
+                iframe.src = url;
             } else {
             console.error("Iframe no encontrado.");
             }
@@ -247,10 +244,18 @@
                 <div class="col-md-4 mb-4 text-center">
                     <h5>Enlaces Rápidos</h5>
                     <ul class="list-unstyled">
+<<<<<<< HEAD
+                        <li><a href="index.html" class="text-dark text-decoration-none">Inicio</a></li>
+                        <li><a href="nosotros.html" class="text-dark text-decoration-none">Nosotros</a></li>
+                        <li><a href="contacto.html" class="text-dark text-decoration-none">Contáctanos</a></li>
+                        <li><a href="material-apoyo.html" class="text-dark text-decoration-none">Material de Apoyo</a>
+                        </li>
+=======
                         <li><a href="./index.html" class="text-dark text-decoration-none">Inicio</a></li>
                         <li><a href="./nosotros.html" class="text-dark text-decoration-none">Nosotros</a></li>
                         <li><a href="./contacto.html" class="text-dark text-decoration-none">Contáctanos</a></li>
                         <li><a href="./material-apoyo.html" class="text-dark text-decoration-none">Material de Apoyo</a></li>
+>>>>>>> c7dc6a43fee71a57110bb606ebad594cc1bcfdfe
                     </ul>
                 </div>
                 <div class="col-md-4 mb-4 text-center text-md-end">
