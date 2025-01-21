@@ -11,7 +11,7 @@
     <!-- FontAwesome para íconos -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <!-- Archivo CSS personalizado -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -62,17 +62,21 @@
                             <li><a class="dropdown-item" href="./TT10.html">Dotación Superior</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="../material-apoyo.html">Material de Apoyo</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="../material-apoyo.html" id="navbarDropdown"
+                            role="button" aria-expanded="false">
+                            Material de Apoyo
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../tutorial-uso.html">Tutorial del uso del material</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="../tutorial-uso.html" id="navbarDropdown"
+                        <a class="nav-link dropdown-toggle text-white" href="../links.html" id="navbarDropdown"
                             role="button" aria-expanded="false">
                             Biblioteca
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../tutorial-uso.html">Tutorial del uso del
-                                    material</a></li>
                             <li><a class="dropdown-item" href="../links.html">Links de Apoyo</a></li>
                         </ul>
                     </li>
@@ -87,7 +91,9 @@
     <!-- Contenido Principal -->
     <div class="container my-5">
         <h1 class="text-center">Discalculia</h1>
-                    <div class="row justify-content-center m-4 g-4">
+        <p class="lead text-center">
+            La discalculia es un trastorno del aprendizaje que afecta la capacidad de una persona para entender y trabajar con conceptos matemáticos. Aunque no está relacionada con la inteligencia general de la persona, las personas con discalculia tienen dificultades significativas para comprender y realizar operaciones matemáticas básicas, como sumar, restar, multiplicar o dividir, así como para entender conceptos abstractos de matemáticas más avanzadas.</p>
+            <div class="row justify-content-center m-4 g-4">
                 <div class="col-md-8 d-flex justify-content-center">
                     <div
                         style="position: relative; width: 100%; height: 0; padding-top: 56.25%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
@@ -132,14 +138,14 @@
                 <div class="col-md-4 mb-4 text-center text-md-end">
                     <h5>Síguenos</h5>
                     <a href="https://www.facebook.com/ITSQMET.UIO" class="text-white me-2">
-                        <img src="../imagenes/facebook-logo.png" alt="Facebook" class="rounded-circle">
+                        <img src="./imagenes/facebook-logo.png" alt="Facebook" class="rounded-circle">
                     </a>
                     <a href=" https://www.youtube.com/channel/UCh2b5Zd28ER4JKX0NKGPsrg" class="text-white me-2">
-                        <img src="../imagenes/youtube.png" alt="YouTube" class="rounded-circle">
+                        <img src="./imagenes/twitter-logo.png" alt="Twitter" class="rounded-circle">
                     </a>
                     <!-- Cambiar por logo de Youtube -->
                     <a href="https://www.instagram.com/itsqmet/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" class="text-white">
-                        <img src="../imagenes/instagram-logo.png" alt="Instagram" class="rounded-circle">
+                        <img src="./imagenes/instagram-logo.png" alt="Instagram" class="rounded-circle">
                     </a>
                 </div>
             </div>
