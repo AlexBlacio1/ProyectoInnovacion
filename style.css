@@ -84,13 +84,13 @@ blockquote {
 }
 
      video {
-    width: 150%;
-    max-width: 500px;
-    width: 200;
     border: 2px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 0 20px;
+    width: 100%; 
+    height: auto; 
+    max-width: 100%;
   }
   
   .text {
@@ -156,3 +156,86 @@ blockquote {
     flex: 1 1 300px; /* Ancho mínimo de los videos */
     max-width: 50%;
   }
+  .video-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column; 
+    gap: 2rem;
+}
+
+.video-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-wrap: nowrap; 
+    gap: 1rem;
+}
+
+.video-item.left {
+    flex-direction: row;
+}
+
+.video-item.right {
+    flex-direction: row-reverse;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 400px; 
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    flex: 1; 
+    max-width: 400px; 
+}
+
+.text h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.text p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 1024px) {
+    .video-item {
+        flex-wrap: wrap; 
+        gap: 1rem;
+    }
+
+    .text {
+        width: 100%; 
+        max-width: none;
+    }
+
+    video {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .video-item {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .text {
+        max-width: 100%; 
+    }
+
+    video {
+        max-width: 100%; 
+    }
+}
