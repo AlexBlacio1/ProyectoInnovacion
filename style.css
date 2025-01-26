@@ -83,6 +83,8 @@ blockquote {
     border-radius: 20px
 }
 
+
+
      video {
     width: 150%;
     max-width: 500px;
@@ -201,4 +203,21 @@ video {
     video {
         max-width: 100%; 
     }
+}
+
+#botonatras {
+    position: absolute;
+    top: 100px; 
+    left: 90px; 
+    background-color: #5dade2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#botonatras:hover {
+    background-color: #0056b3;
 }
