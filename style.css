@@ -221,3 +221,13 @@ video {
 #botonatras:hover {
     background-color: #0056b3;
 }
+
+body {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.804), rgba(255, 255, 255, 0.5)), 
+        url('./imagenes/fondo_pagina.jpg'); 
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center; /* Centra la imagen */
+}
+
