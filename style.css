@@ -231,3 +231,40 @@ body {
     background-position: center; /* Centra la imagen */
 }
 
+/* Estilo general para el footer */
+footer {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a una legible y profesional */
+    font-size: 16px; /* Aumenta ligeramente el tamaño del texto */
+    line-height: 1.5; /* Mejora el espaciado entre líneas para mayor claridad */
+    color: #343a40; /* Color oscuro pero legible */
+}
+
+/* Títulos dentro del footer */
+footer h5 {
+    font-size: 20px; /* Tamaño mayor para destacar los títulos */
+    font-weight: bold; /* Resalta los títulos */
+    margin-bottom: 15px; /* Espaciado debajo del título */
+}
+
+/* Enlaces dentro del footer */
+footer a {
+    font-size: 16px; /* Asegura que los enlaces tengan un tamaño consistente */
+    color: #007bff; /* Azul legible y profesional */
+    text-decoration: none; /* Quita subrayado para un diseño limpio */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+}
+
+/* Texto general en el footer */
+footer p {
+    margin: 5px 0; /* Reduce márgenes entre párrafos */
+    font-size: 16px; /* Tamaño consistente con el texto general */
+}
+
+/* Derechos reservados */
+footer .text-center p {
+    font-size: 14px; /* Texto más pequeño para las notas al pie */
+    color: #6c757d; /* Color más tenue para no competir con el contenido principal */
+}
